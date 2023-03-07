@@ -39,17 +39,33 @@ section .waves .wave#wave2{
     opacity: 0.5;
     bottom: 10px;
     z-index: 999;
-    animation: animate 4s linear infinite;
+    animation: animate2 4s linear infinite;
 }
 section .waves .wave#wave3{
     opacity: 0.2;
     bottom: 15px;
     z-index: 998;
-    animation: animate 4s linear infinite;
+    animation: animate 2s linear infinite;
 }
 section .waves .wave#wave4{
     opacity: 0.7;
     bottom: 20px;
     z-index: 999;
-    animation: animate 4s linear infinite;
+    animation: animate2 2s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animate2{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
 }
