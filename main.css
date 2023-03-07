@@ -69,3 +69,12 @@ section .waves .wave#wave4{
         background-position-x: 1000px;
     }
 }
+.stars{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    mix-blend-mode: screen;
+}
